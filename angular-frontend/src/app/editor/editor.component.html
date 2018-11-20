@@ -1,0 +1,25 @@
+
+  <label>Tag:
+    <input [(ngModel)]="editor.tag" placeholder="tag"/>
+  </label>
+  <label>Value:
+      <input [(ngModel)]="editor.value1" placeholder="value1"/>
+  </label>
+  <label>Value:
+      <input [(ngModel)]="editor.value2" placeholder="value2"/>
+  </label>
+  <h3>Ultima operacion: {{editor.lastOp}}</h3>
+  <h2>Resultado:  {{editor.result}}</h2>
+  <button (click)="onSelect('add')">Sumar</button>
+  <button (click)="onSelect('subtract')">Restar</button>
+  <button (click)="onSelect('multiply')">Multiplicar</button>
+  <button (click)="onSelect('divide')">Dividir</button>
+
+  <br/>
+  <br/>
+
+  <h1>Historial</h1>
+  <li *ngFor="let history of historyArray">
+      <span>{{history.record}} - {{history.operation}}</span> value {{history.value1}} value {{history.value2}}
+  </li>
+
