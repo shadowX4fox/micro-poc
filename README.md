@@ -1,8 +1,9 @@
 # micro-poc
 Poc Microservicios
 
+![Micro-POC](Micro-POC.png)
 
-Para ejecutar se requiere adicionalmente Consul y Kafka
+##Para ejecutar se requiere adicionalmente Consul y Kafka
 
 Se los puede obtener de las siguientes imagenes
 
