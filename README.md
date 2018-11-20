@@ -9,7 +9,7 @@ Contiene lo siguiente
  * descubrimiento de servicios
  * manejo de fallos fallback y circuit breaker
  
-## Diagrama de Arquitecture
+## Diagrama de Arquitectura
 
 ![Micro-POC](Micro-POC.png)
 
