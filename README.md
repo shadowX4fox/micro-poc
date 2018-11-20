@@ -1,6 +1,8 @@
 # micro-poc
 Taller de uso de microservicios
 
+Herramientas usadas Micronaut,Hazelcast,Kafka,Angular,Consul
+
 Contiene lo siguiente
  
  * comunicacion sincrona
