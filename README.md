@@ -1,4 +1,4 @@
-# micro-poc
+# Webinar Microservicios
 Taller de uso de microservicios
 
 Herramientas usadas Micronaut,Hazelcast,Kafka,Angular,Consul
