@@ -1,5 +1,15 @@
 # micro-poc
-Poc Microservicios
+Prueba de concepto de uso de microservicios
+
+Contiene lo siguiente
+ 
+ * comunicacion sincrona
+ * comunicacion asincrona
+ * gateway
+ * descubrimiento de servicios
+ * manejo de fallos fallback y circuit breaker
+ 
+## Diagrama de Arquitecture
 
 ![Micro-POC](Micro-POC.png)
 
