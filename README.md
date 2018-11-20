@@ -1,5 +1,5 @@
 # micro-poc
-Prueba de concepto de uso de microservicios
+Taller de uso de microservicios
 
 Contiene lo siguiente
  
