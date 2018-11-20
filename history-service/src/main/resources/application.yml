@@ -1,0 +1,13 @@
+micronaut:
+    application:
+        name: history-service
+    server:
+        port: 9001
+kafka:
+    bootstrap:
+        servers: localhost:9092
+consul:
+    client:
+        registration:
+            enabled: true
+        defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"

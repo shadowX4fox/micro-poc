@@ -1,0 +1,19 @@
+micronaut:
+    application:
+        name: gateway-service
+    server:
+        port: 9080
+    metrics:
+      enabled: true
+consul:
+    client:
+        registration:
+            enabled: true
+        defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+endpoints:
+    health:
+        enabled: true
+        sensitive: false
+    metrics:
+        enabled: true
+        sensitive: false

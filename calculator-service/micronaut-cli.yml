@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: org.shadowx4fox
+---
+testFramework: junit
+sourceLanguage: java
