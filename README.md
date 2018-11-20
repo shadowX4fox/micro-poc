@@ -11,7 +11,7 @@ Contiene lo siguiente
  
 ## Diagrama de Arquitectura
 
-![Micro-POC](Micro-POC.png)
+![Micro-poc-diag](Micro-poc-diag.png)
 
 ## Para ejecutar se requiere adicionalmente Consul y Kafka
 
